@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<drzava>
+    <naziv>Bosna i Hercegovina</naziv>
+    <brojStanovnika> 6000000</brojStanovnika>
+    <povrsina>54658754</povrsina>
+    <jedinicaPovrsine>km2 </jedinicaPovrsine>
+    <glavnigrad stanovnika="400000">
+        <naziv>Sarajevo</naziv>
+    </glavnigrad>
+</drzava>
