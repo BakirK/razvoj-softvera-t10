@@ -9,6 +9,8 @@ public class Drzava implements Serializable {
     private String  jedinicaPovrsine;
     private Grad glavniGrad;
 
+    private static final long serialVersionUID = 1L;
+
     public Drzava() {
 
     }

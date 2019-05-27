@@ -25,7 +25,6 @@ public class Tutorijal {
         BufferedReader ulaz;
         try {
             ulaz = new BufferedReader(new FileReader("mjerenja.txt"));
-
             String line;
             //ulaz.hasNext();
             while((line = ulaz.readLine()) != null) {
@@ -45,13 +44,14 @@ public class Tutorijal {
                         temperature.add(Double.parseDouble(word));
                         i++;
                     }
-                    if ( i == 10) {
+                    if ( i == 1000) {
                         break;
                     }
                 }
 
                 gradovi.add(new Grad(naziv, null, temperature));
             }
+            ulaz.close();
         } catch (FileNotFoundException e) {
             System.out.println("Datoteka ulaz.txt ne postoji ili se ne može otvoriti");
         } catch (IOException e) {
@@ -59,4 +59,13 @@ public class Tutorijal {
         }
         return gradovi;
     }
+
+    public static void ucitajXml() {
+
+    }
+
+
+
+
+
 }

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class UN implements Serializable {
     private ArrayList<Drzava> drzave;
+    private static final long serialVersionUID = 1L;
 
     public ArrayList<Drzava> getDrzave() {
         return drzave;

@@ -9,6 +9,8 @@ public class Grad implements Serializable {
     private Integer brojStanovnika;
     private ArrayList<Double> temperature;
 
+    private static final long serialVersionUID = 1L;
+
     public Grad(String naziv, Integer brojStanovnika, ArrayList<Double> temperature) {
         this.naziv = naziv;
         this.brojStanovnika = brojStanovnika;
